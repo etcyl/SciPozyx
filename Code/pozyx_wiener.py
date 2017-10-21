@@ -30,14 +30,9 @@ Returns:
 import pandas as pd
 import matplotlib.pyplot as plt
 
-#df=pd.read_csv('/Users/CoraJune/Documents/GitHub/Pozyx/Data/Motor_Turntable/rps_motor_turntable_1.txt', delimiter=' ',  usecols=['Time','RPS','Rotations'])
 
 df=pd.read_csv('https://github.com/etcyl/SciPozyx/blob/master/Data/walking_varying_speed_multi_test_ch2.csv', delimiter=' ',  usecols=[2, 13, 14, 15], names=['Time','xpos','ypos','zpos'])
-
-#/Users/Etcyl/Desktop/walking_varying_speed_multi_test_ch2.csv
-
 df1=pd.read_csv('https://github.com/etcyl/SciPozyx/blob/master/Data/walking_varying_speed_multi_test_ch2.csv', delimiter=' ',  usecols=[2, 13, 14, 15], names=['Time1','xpos1','ypos1','zpos1'])
-
 
 
 x=df['Time']
@@ -120,8 +115,6 @@ ax2.plot()
 plt.show()
 
 df.plot()
-
-
 
 #df1=df.diff(1,0)['Angular Velocity']
 #ax1=df1.plot.line(x=2, y='Angular Velocity', linewidth=1, title='Angular Acceleration')
