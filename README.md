@@ -14,7 +14,9 @@ https://github.com/scipy/scipy/blob/v0.14.0/scipy/signal/signaltools.py#L441
 
 TODO: 
 
-Try K-Filters: - scipy-cookbook.readthedocs.io/items/KalmanFiltering.html
+Try K-Filters: 
+
+               - scipy-cookbook.readthedocs.io/items/KalmanFiltering.html
 
                - github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python
 
