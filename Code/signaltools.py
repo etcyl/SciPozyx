@@ -3,7 +3,7 @@
 Created on Sat Oct 21 00:08:31 2017
 
 @author: Etcyl 
-         Using signaltools by Oliphant.
+         Using signaltools by Oliphant to run the Wiener function with only the necessary code.
 """
 # Author: Travis Oliphant
 # 1999 -- 2002
@@ -12,7 +12,7 @@ from __future__ import division, print_function, absolute_import
 
 import warnings
 
-from . import sigtools
+from scipy.signal import sigtools
 from numpy import (asarray, ones, product, mean, where, ravel)
 import numpy as np
 
@@ -220,4 +220,3 @@ def correlate(in1, in2, mode='full'):
         z = sigtools._correlateND(in1zpadded, in2, out, val)
 
     return z      
-    
