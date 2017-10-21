@@ -10,3 +10,12 @@ Testing of SciPy filters with noisy data from the Pozyx remote sensing system. I
 Wiener source code used:
 
 https://github.com/scipy/scipy/blob/v0.14.0/scipy/signal/signaltools.py#L441
+
+
+TODO: 
+
+Try K-Filters: - scipy-cookbook.readthedocs.io/items/KalmanFiltering.html
+
+               - github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python
+
+               - github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python/blob/master/07-Kalman-Filter-Math.ipynb
