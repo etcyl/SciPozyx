@@ -401,5 +401,8 @@ data = [1.19E-06,
 0.01872468,
 0.018676043]
 
-#Generate an output from the Wiener Filter
+#Generate an output from the Wiener Filter (1x)
 output = wiener(data)
+
+#Filter the data again (2x)
+output2 = wiener(output)
