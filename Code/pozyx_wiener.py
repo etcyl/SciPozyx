@@ -4,7 +4,7 @@ Matt Fleetwood
 10 - 20 - 2017
 Portland, OR
 
-Modified Pozyx file to cite the read data using pd.read_csv from a local file pathway.
+Modified Pozyx file to cite the read data using pd.read_csv from an online file pathway.
 SciPy's Wiener filter function is also used to test how effective it might be for this example.
 
 The following is taken from SciPy's API for the Wiener filter
